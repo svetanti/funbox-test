@@ -1,0 +1,20 @@
+.card__main-text {
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0;
+  color: #666;
+}
+
+@media screen and (max-width: 768px) {
+  .card__main-text {
+    font-size: calc((100vw - 320px) / (768 - 320) * (16 - 12) + 12px);
+    line-height: calc((100vw - 320px) / (768 - 320) * (21 - 16) + 16px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card__main-text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}

@@ -1,0 +1,9 @@
+.card__buy_link {
+  color: var(--default-color);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--default-color);
+}
+
+.card:hover .card__buy_link {
+  border-bottom: 1px dashed var(--default-hover-color);
+}

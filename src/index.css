@@ -1,0 +1,28 @@
+@import url('./fonts/fonts.css');
+@import url('../src/blocks/page/page.css');
+@import url('../src/blocks/cards/cards.css');
+@import url('../src/blocks/card/card.css');
+@import url('../src/blocks/card/__main-text/card__main-text.css');
+@import url('../src/blocks/card/__title/card__title.css');
+@import url('../src/blocks/card/__subtitle/card__subtitle.css');
+@import url('../src/blocks/card/__subtext/card__subtext.css');
+@import url('../src/blocks/card/__subtext/_number/card__subtext_number.css');
+@import url('../src/blocks/card/__corner/card__corner.css');
+@import url('../src/blocks/card/__corner/_theme/card__corner_theme_selected.css');
+@import url('../src/blocks/card/__corner/_theme/card__corner_theme_disabled.css');
+@import url('../src/blocks/card/__background/card__background.css');
+@import url('../src/blocks/card/__background/_theme/card__background_theme_selected.css');
+@import url('../src/blocks/card/__background/_theme/card__background_theme_disabled.css');
+@import url('../src/blocks/card/__cat/card__cat.css');
+@import url('../src/blocks/card/__weight/card__weight.css');
+@import url('../src/blocks/card/__weight/_theme/card__weight_theme_selected.css');
+@import url('../src/blocks/card/__weight/_theme/card__weight_theme_disabled.css');
+@import url('../src/blocks/card/__weight/_text/card__weight_text.css');
+@import url('../src/blocks/card/__weight/_subtext/card__weight_subtext.css');
+@import url('../src/blocks/card/__buy/card__buy.css');
+@import url('../src/blocks/card/__buy/_theme/card__buy_theme_disabled.css');
+@import url('../src/blocks/card/__buy/_link/card__buy_link.css');
+
+body {
+  margin: 0;
+}

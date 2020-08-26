@@ -1,0 +1,7 @@
+.card__weight_theme_disabled {
+  background-color: var(--disabled-color);
+}
+
+.card:hover .card__weight_theme_disabled {
+  background-color: var(--disabled-color);
+}

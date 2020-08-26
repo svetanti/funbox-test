@@ -1,0 +1,50 @@
+.card__corner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border-top-left-radius: 12px;
+  border-top: 4px solid var(--default-color);
+  border-left: 4px solid var(--default-color);
+}
+
+.card__corner::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: -4px;
+  height: 28px;
+  width: 4px;
+  background-color: var(--default-color);
+  transform: skew(0deg, -45deg);
+}
+
+.card__corner::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 4px;
+  height: 4px;
+  width: 28px;
+  background-color: var(--default-color);
+  transform: skew(-45deg, 0deg);
+}
+
+.card:hover .card__corner {
+  border-color: var(--default-color);
+}
+
+.card:hover:not(.card_active) .card__corner {
+  border-color: var(--default-hover-color);
+}
+
+.card:hover .card__corner::after,
+.card:hover .card__corner::before {
+  background-color: var(--default-color);
+}
+
+.card:hover:not(.card_active) .card__corner::after,
+.card:hover:not(.card_active) .card__corner::before {
+  background-color: var(--default-hover-color);
+}

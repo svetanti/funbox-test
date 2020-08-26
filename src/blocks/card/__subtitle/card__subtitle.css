@@ -1,0 +1,21 @@
+.card__subtitle {
+  font-family: 'Trebuchet MS';
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .card__subtitle {
+    font-size: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);
+    line-height: calc((100vw - 320px) / (768 - 320) * (28 - 18) + 18px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

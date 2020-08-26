@@ -1,0 +1,20 @@
+.card__weight {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--default-color);
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.card:hover .card__weight {
+  background-color: var(--default-color);
+}
+
+.card:hover:not(.card_active) .card__weight {
+  background-color: var(--default-hover-color);
+}

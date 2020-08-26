@@ -1,0 +1,30 @@
+.card__corner_theme_selected {
+  border-top: 4px solid var(--selected-color);
+  border-left: 4px solid var(--selected-color);
+}
+
+.card__corner_theme_selected::before {
+  background-color: var(--selected-color);
+}
+
+.card__corner_theme_selected::after {
+  background-color: var(--selected-color);
+}
+
+.card:hover .card__corner_theme_selected {
+  border-color: var(--selected-color);
+}
+
+.card:hover:not(.card_active) .card__corner_theme_selected {
+  border-color: var(--selected-hover-color);
+}
+
+.card:hover .card__corner_theme_selected::after,
+.card:hover .card__corner_theme_selected::before {
+  background-color: var(--selected-color);
+}
+
+.card:hover:not(.card_active) .card__corner_theme_selected::after,
+.card:hover:not(.card_active) .card__corner_theme_selected::before {
+  background-color: var(--selected-hover-color);
+}

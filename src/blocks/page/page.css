@@ -1,0 +1,10 @@
+.page {
+  display: flex;
+  max-width: 100%;
+  min-height: 100vh;
+  background-image: url('../../images/pattern.png');
+  background-size: cover;
+  font-family: 'Exo 2', sans-serif;
+  margin: 0;
+  padding: 0;
+}

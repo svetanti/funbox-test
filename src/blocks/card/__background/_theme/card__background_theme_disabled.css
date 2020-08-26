@@ -1,0 +1,7 @@
+.card__background_theme_disabled {
+  border: 4px solid var(--disabled-color);
+}
+
+.card:hover .card__background_theme_disabled {
+  border-color: var(--disabled-color);
+}

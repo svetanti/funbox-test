@@ -1,0 +1,70 @@
+:root {
+  --default-color: #1698d9;
+  --default-hover-color: #2ea8e6;
+  --selected-color: #d91667;
+  --selected-hover-color: #e52e7a;
+  --disabled-color: #b3b3b3;
+  --width: calc((100% - 160px) / 3);
+}
+
+.card {
+  width: var(--width);
+  height: 29px;
+  padding-top: calc(3 * var(--width) / 2);
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.7s ease;
+}
+
+.card:last-of-type {
+  margin-right: 0;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+  .card {
+    --width: calc((100% - 80px) / 3);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    --width: 320px;
+  }
+  .card:first-of-type {
+    margin-right: 40px;
+  }
+  .card:nth-of-type(2) {
+    margin-right: 0;
+  }
+  .card:last-of-type {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    --width: calc((100% - 40px) / 2);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    --width: 100%;
+  }
+  .card:first-of-type {
+    margin-right: 0;
+  }
+  .card:nth-of-type(2) {
+    margin-top: 40px;
+  }
+  .card:last-of-type {
+    margin-top: 40px;
+  }
+}

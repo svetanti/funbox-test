@@ -1,0 +1,35 @@
+.card__background {
+  width: 100%;
+  height: calc(100% - 29px);
+  clip-path: polygon(45px 0, 100% 0%, 100% 100%, 0 100%, 0 45px);
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-sizing: border-box;
+  z-index: 2;
+  border: 4px solid var(--default-color);
+  padding: 21px 0 0 51px;
+}
+
+.card:hover .card__background {
+  border: 4px solid var(--default-color);
+}
+
+.card:hover:not(.card_active) .card__background {
+  border: 4px solid var(--default-hover-color);
+}
+
+@media screen and (max-width: 768px) {
+  .card__background {
+    padding: 18px 10px 0 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card__background {
+    padding: 21px 0 0 51px;
+  }
+}

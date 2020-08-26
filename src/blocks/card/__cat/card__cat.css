@@ -1,0 +1,18 @@
+.card__cat {
+  width: 115%;
+  position: absolute;
+  left: -7.5%;
+  top: 45%;
+}
+
+@media screen and (max-width: 768px) {
+  .card__cat {
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card__cat {
+    top: 45%;
+  }
+}

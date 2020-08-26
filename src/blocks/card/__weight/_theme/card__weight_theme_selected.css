@@ -1,0 +1,11 @@
+.card__weight_theme_selected {
+  background-color: var(--selected-color);
+}
+
+.card:hover .card__weight_theme_selected {
+  background-color: var(--selected-color);
+}
+
+.card:hover:not(.card_active) .card__weight_theme_selected {
+  background-color: var(--selected-hover-color);
+}
