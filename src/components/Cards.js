@@ -25,7 +25,7 @@ function Cards() {
         },
         {
             id: 3,
-            type: 'с рыбой',
+            type: 'с курой',
             serving: '100',
             miceNumber: '5 мышей',
             feature: 'заказчик доволен',
