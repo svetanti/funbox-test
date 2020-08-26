@@ -15,7 +15,16 @@
   border-color: var(--disabled-color);
 }
 
+.card:hover:not(.card_active) .card__corner_theme_disabled {
+  border-color: var(--disabled-color);
+}
+
 .card:hover .card__corner_theme_disabled::after,
 .card:hover .card__corner_theme_disabled::before {
+  background-color: var(--disabled-color);
+}
+
+.card:hover:not(.card_active) .card__corner_theme_disabled::after,
+.card:hover:not(.card_active) .card__corner_theme_disabled::before {
   background-color: var(--disabled-color);
 }
