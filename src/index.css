@@ -3,6 +3,7 @@
 @import url('../src/blocks/cards/cards.css');
 @import url('../src/blocks/card/card.css');
 @import url('../src/blocks/card/__main-text/card__main-text.css');
+@import url('../src/blocks/card/__main-text/_theme/card__main-text_theme_selected.css');
 @import url('../src/blocks/card/__title/card__title.css');
 @import url('../src/blocks/card/__subtitle/card__subtitle.css');
 @import url('../src/blocks/card/__subtext/card__subtext.css');

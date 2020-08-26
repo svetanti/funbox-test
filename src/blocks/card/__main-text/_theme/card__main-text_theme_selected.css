@@ -1,0 +1,11 @@
+.card__main-text_theme_selected {
+  color: var(--selected-color);
+}
+
+.card:hover .card__main-text_theme_selected {
+  color: var(--selected-color);
+}
+
+.card:hover:not(.card_active) .card__main-text_theme_selected {
+  color: var(--selected-hover-color);
+}

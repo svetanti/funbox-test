@@ -8,6 +8,7 @@
 }
 
 .card {
+  font-family: 'Trebuchet MS';
   width: var(--width);
   height: 29px;
   padding-top: calc(3 * var(--width) / 2);
