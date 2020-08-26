@@ -41,7 +41,7 @@ function Card(card) {
                     <span className="card__subtext_number">{card.serving} </span>порций
                     <span className="card__subtext_number"> {card.miceNumber} </span>
                     в подарок {card.feature}</p>
-                <img src={cat} alt="cat" className="card__cat" />
+                <img src={cat} alt="Серый кот, очень симпатичный" className="card__cat" />
                 <div className={isSelected ? cardWeightClassName : 'card__weight'}>
                     <p className="card__weight_text">{card.weight}</p>
                     <p className="card__weight_subtext">кг</p>
